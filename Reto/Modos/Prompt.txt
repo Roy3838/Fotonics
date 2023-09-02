@@ -1,0 +1,500 @@
+Running x:0.825, y:0.1, l:1.555
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 27.3333%
+Running x:0.825, y:0.325, l:1.555
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 28%
+Running x:0.825, y:0.55, l:1.555
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 28.6667%
+Running x:0.825, y:0.775, l:1.555
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 29.3333%
+Running x:0.825, y:1, l:1.555
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 30%
+Running x:1, y:0.1, l:1.555
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 30.6667%
+Running x:1, y:0.325, l:1.555
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 31.3333%
+Running x:1, y:0.55, l:1.555
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 32%
+Running x:1, y:0.775, l:1.555
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 32.6667%
+Running x:1, y:1, l:1.555
+Modes>0, Modes:4
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 33.3333%
+Running x:0.3, y:0.1, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 34%
+Running x:0.3, y:0.325, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 34.6667%
+Running x:0.3, y:0.55, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 35.3333%
+Running x:0.3, y:0.775, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 36%
+Running x:0.3, y:1, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 36.6667%
+Running x:0.475, y:0.1, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 37.3333%
+Running x:0.475, y:0.325, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 38%
+Running x:0.475, y:0.55, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 38.6667%
+Running x:0.475, y:0.775, l:1.58
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 39.3333%
+Running x:0.475, y:1, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 40%
+Running x:0.65, y:0.1, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 40.6667%
+Running x:0.65, y:0.325, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 41.3333%
+Running x:0.65, y:0.55, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 42%
+Running x:0.65, y:0.775, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 42.6667%
+Running x:0.65, y:1, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 43.3333%
+Running x:0.825, y:0.1, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 44%
+Running x:0.825, y:0.325, l:1.58
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 44.6667%
+Running x:0.825, y:0.55, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 45.3333%
+Running x:0.825, y:0.775, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 46%
+Running x:0.825, y:1, l:1.58
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 46.6667%
+Running x:1, y:0.1, l:1.58
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 47.3333%
+Running x:1, y:0.325, l:1.58
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 48%
+Running x:1, y:0.55, l:1.58
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 48.6667%
+Running x:1, y:0.775, l:1.58
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 49.3333%
+Running x:1, y:1, l:1.58
+Modes>0, Modes:4
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 50%
+Running x:0.3, y:0.1, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 50.6667%
+Running x:0.3, y:0.325, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 51.3333%
+Running x:0.3, y:0.55, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 52%
+Running x:0.3, y:0.775, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 52.6667%
+Running x:0.3, y:1, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 53.3333%
+Running x:0.475, y:0.1, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 54%
+Running x:0.475, y:0.325, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 54.6667%
+Running x:0.475, y:0.55, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 55.3333%
+Running x:0.475, y:0.775, l:0.51
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 56%
+Running x:0.475, y:1, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 56.6667%
+Running x:0.65, y:0.1, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 57.3333%
+Running x:0.65, y:0.325, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 58%
+Running x:0.65, y:0.55, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 58.6667%
+Running x:0.65, y:0.775, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 59.3333%
+Running x:0.65, y:1, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 60%
+Running x:0.825, y:0.1, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 60.6667%
+Running x:0.825, y:0.325, l:0.51
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 61.3333%
+Running x:0.825, y:0.55, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 62%
+Running x:0.825, y:0.775, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 62.6667%
+Running x:0.825, y:1, l:0.51
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 63.3333%
+Running x:1, y:0.1, l:0.51
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 64%
+Running x:1, y:0.325, l:0.51
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 64.6667%
+Running x:1, y:0.55, l:0.51
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 65.3333%
+Running x:1, y:0.775, l:0.51
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 66%
+Running x:1, y:1, l:0.51
+Modes>0, Modes:4
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 66.6667%
+Running x:0.3, y:0.1, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 67.3333%
+Running x:0.3, y:0.325, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 68%
+Running x:0.3, y:0.55, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 68.6667%
+Running x:0.3, y:0.775, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 69.3333%
+Running x:0.3, y:1, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 70%
+Running x:0.475, y:0.1, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 70.6667%
+Running x:0.475, y:0.325, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 71.3333%
+Running x:0.475, y:0.55, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 72%
+Running x:0.475, y:0.775, l:0.75
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 72.6667%
+Running x:0.475, y:1, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 73.3333%
+Running x:0.65, y:0.1, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 74%
+Running x:0.65, y:0.325, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 74.6667%
+Running x:0.65, y:0.55, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 75.3333%
+Running x:0.65, y:0.775, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 76%
+Running x:0.65, y:1, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 76.6667%
+Running x:0.825, y:0.1, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 77.3333%
+Running x:0.825, y:0.325, l:0.75
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 78%
+Running x:0.825, y:0.55, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 78.6667%
+Running x:0.825, y:0.775, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 79.3333%
+Running x:0.825, y:1, l:0.75
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 80%
+Running x:1, y:0.1, l:0.75
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 80.6667%
+Running x:1, y:0.325, l:0.75
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 81.3333%
+Running x:1, y:0.55, l:0.75
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 82%
+Running x:1, y:0.775, l:0.75
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 82.6667%
+Running x:1, y:1, l:0.75
+Modes>0, Modes:4
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 83.3333%
+Running x:0.3, y:0.1, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 84%
+Running x:0.3, y:0.325, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 84.6667%
+Running x:0.3, y:0.55, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 85.3333%
+Running x:0.3, y:0.775, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 86%
+Running x:0.3, y:1, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 86.6667%
+Running x:0.475, y:0.1, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 87.3333%
+Running x:0.475, y:0.325, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 88%
+Running x:0.475, y:0.55, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 88.6667%
+Running x:0.475, y:0.775, l:1
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 89.3333%
+Running x:0.475, y:1, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 90%
+Running x:0.65, y:0.1, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 90.6667%
+Running x:0.65, y:0.325, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 91.3333%
+Running x:0.65, y:0.55, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 92%
+Running x:0.65, y:0.775, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 92.6667%
+Running x:0.65, y:1, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 93.3333%
+Running x:0.825, y:0.1, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 94%
+Running x:0.825, y:0.325, l:1
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 94.6667%
+Running x:0.825, y:0.55, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 95.3333%
+Running x:0.825, y:0.775, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 96%
+Running x:0.825, y:1, l:1
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 96.6667%
+Running x:1, y:0.1, l:1
+Warning: libraryFDE.lsf line 66: no modes were found
+No modes
+Progress: 97.3333%
+Running x:1, y:0.325, l:1
+Modes>0, Modes:1
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 98%
+Running x:1, y:0.55, l:1
+Modes>0, Modes:2
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 98.6667%
+Running x:1, y:0.775, l:1
+Modes>0, Modes:3
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Progress: 99.3333%
+Running x:1, y:1, l:1
+Modes>0, Modes:4
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Warning: libraryFDE.lsf line 168: plot: some options could be ignored in hold on mode. Please use setplot instead.
+Finish
