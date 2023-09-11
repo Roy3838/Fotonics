@@ -5,8 +5,8 @@ N = 512
 U_0 = zeros(Complex{Float64},N,N)
 lambda = 633e-9
 w0 = 0.5e-3
-L = 20*w0
-dx = L/N
+L = 4*w0
+dx = 2*L/N
 NV = collect(-N/2:N/2-1)
 xs = NV*dx
 ys = NV*dx
@@ -15,14 +15,6 @@ Xs, Ys = meshgrid(xs, ys)
 r2 = Xs.^2 + Ys.^2
 
 U_0 = exp.(-r2/w0^2) # Gaussiano inicial
-# U_0 es un cuadrado
-# for i in 1:N
-#     for j in 1:N
-#         if abs(xs[i]) < 0.5e-3 && abs(ys[j]) < 0.5e-3
-#             U_0[i,j] = 1
-#         end
-#     end
-# end
 
 
 k_0 = 2*pi/lambda
@@ -31,14 +23,14 @@ k_x = k_max * (2/N) * NV
 k_y = k_max * (2/N) * NV
 KXs, KYs = meshgrid(k_x, k_y)
 
-zR = pi*w0^2/lambda
+zR = k_0 * w0^2 / 2
 
 # # Aplicar lente delgada
-f = 0.05 # Distancia focal de 5 cm
-phase = exp.(-1im *( k_0 ./ (2 .* f)) * (Xs.^2 + Ys.^2))
-U_0 = U_0 .* phase
+# f = 0.05 # Distancia focal de 5 cm
+# phase = exp.(-1im *( k_0 ./ (2 .* f)) * (Xs.^2 + Ys.^2))
+# U_0 = U_0 .* phase
 
-z_final = 0.7e-2*zR
+z_final = 1.5e*zR
 
 nz = 100 # número de pasos en z
 dz = z_final/nz
