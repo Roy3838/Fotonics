@@ -1,5 +1,7 @@
 using FFTW, Plots, SpecialFunctions
 
+include("propagar.jl")
+
 # ******* Definicion de parametros fisicos ********
 w0 = 0.5e-3          # Cintura del haz Gaussiano [m]
 λ = 633e-9           # longitud de onda [m]
