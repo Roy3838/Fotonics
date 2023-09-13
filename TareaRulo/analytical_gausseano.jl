@@ -35,22 +35,6 @@ D = 1
 q1 = 1.0 # Placeholder value, replace with actual value if available
 L_0 = 3 # Placeholder value, replace with actual value if available
 
-# Calculate U for each point (x2, y2)
-U = zeros(Complex{Float64}, N, N)
-for i in 1:N
-    for j in 1:N
-        x2 = xs[i]
-        y2 = ys[j]
-        r2 = x2^2 + y2^2
-        
-        gamma = (1im * k_0)/2 * ((q1*A + B)/q1*B)
-        alpha = 1im * k_0 * (2*B) * x2
-        beta  = 1im * k_0 * (2*B) * y2
-        
-        U[i, j] = k_0 * exp(1im*k_0*L_0)/(12*pi) * exp(1im*k_0/(2*B) * (D * r2)) * (pi*gamma) * exp(alpha^2 / gamma + beta^2 / gamma)
-    end
-end
-
 
 # any(isnan, U) || any(isinf, U)
 
