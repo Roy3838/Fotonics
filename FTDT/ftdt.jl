@@ -16,6 +16,7 @@
 
 
 module FTDT_LIB
+
 export simular
 
 using LinearAlgebra                 # Declaración de variables
@@ -30,7 +31,7 @@ function simular(medio, idx, idy)
 
   println("Declaración de constantes físicas")
 
-  # Redifinición de unidades de longitud y tiempo
+# Redifinición de unidades de longitud y tiempo
   und = 1*10^-6;                       # Unidad espacial
   unt = 1*10^0;                       # Unidad temporal
 
@@ -62,7 +63,6 @@ function simular(medio, idx, idy)
 
   # Ventana numérica
   ventNum = round.([30*10^-3 15*10^-3]/und*dx,RoundUp)
-
   ie= Int(ventNum[2]);                                     # nodos en y
   je= Int(ventNum[1]);                                     # nodos en x
 
@@ -546,10 +546,10 @@ function simular(medio, idx, idy)
     # Guardar matrices de infromación
     save(File(format"JLD",string(pwd(),"\\gifMagico\\matHz-",nit,".jld")),"hz",hz)
 
+    end
+
   end
 
 end
-
-
 
 end
