@@ -549,3 +549,7 @@ function simular(medio, idx, idy)
   end
 
 end
+
+
+
+end
