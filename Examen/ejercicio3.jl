@@ -1,7 +1,7 @@
 
 
 # Se tiene un material descrito por 
-E = (2x + y + 2z) (E_0/sqrt(2))
+E = (2x + y + 2z) *  (E_0/sqrt(2))
 
 # Y se tiene una susceptibilidad descrita por 
 e_r = [1.5 0.5 0; 0.5 1.5 0; 0 0 1]

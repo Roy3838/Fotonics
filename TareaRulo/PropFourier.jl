@@ -50,5 +50,5 @@ for ii=1:nz
 end
 
 # Plotting the propagated field
-heatmap(0:dz:z, Y[:, Int(N/2)+1]./w0, abs.(Ur).^(1/4), title="Propagacion del campo en z", xlabel="z/zR", ylabel="y/w₀", color=:viridis)
+heatmap(0:dz:z, Y[:, Int(N/2)+1]./w0, abs.(Ur), title="Propagacion del campo en z", xlabel="z/zR", ylabel="y/w₀", color=:viridis)
 
