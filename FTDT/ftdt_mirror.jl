@@ -100,7 +100,7 @@ function simular(medio_n, medio_r, idx, idy, nmax)
   #source = sin.(omega*(collect(1:scl*tau).-delay)*dt).*exp.(-((collect(1:scl*tau).-delay).^2/tau^2));
 
   # Guardar parámetros espaciales
-  save(File(format"JLD",string(pwd(),"gifMagico/parametros.jld")),"nx",je,"ny",ie,"nt",nmax,"dx",dx,"dt",dt,"und",und,"unt",unt)
+  # save(File(format"JLD",string(pwd(),"gifMagico/parametros.jld")),"nx",je,"ny",ie,"nt",nmax,"dx",dx,"dt",dt,"und",und,"unt",unt)
 
   ########################################################################
   # Inicialización de matrices
