@@ -30,7 +30,7 @@ using Base.Threads
 #######################################################################
 
 
-function simular(medio, idx, idy, nmax)
+function simular(medio_n, medio_r, idx, idy, nmax)
 
   println("Declaración de constantes físicas")
 
@@ -205,7 +205,8 @@ function simular(medio, idx, idy, nmax)
   #######################################################################
 
   println("Definición de geometría")
-  medioProp = medio
+  medioProp = medio_n
+  medioMirror = medio_r
 
   # Cambio en las constantes de propagación
     auxObj = 0; #dt*sig[1]./(2.0*medioProp);
@@ -399,9 +400,19 @@ function simular(medio, idx, idy, nmax)
 
 for nit in ProgressBar(1:nmax)
 
+
+    # DEBUG
+    # @show size(medioMirror)
+    # @show size(hz)
+    # @show size(ex)
+    # @show size(ey)
+    # @show size(medioProp)
+
+
     # Campo eléctrico
-    ex[:,2:je]=caex[:,2:je].*ex[:,2:je]+cbex[:,2:je].*(hz[:,2:je]-hz[:,1:je-1]);
-    ey[2:ie,:]=caey[2:ie,:].*ey[2:ie,:]+cbey[2:ie,:].*(hz[1:ie-1,:]-hz[2:ie,:]);
+    ex[:,2:je] = caex[:,2:je].*ex[:,2:je] + cbex[:,2:je].*(hz[:,2:je] - hz[:,1:je-1]) .* (1 .- medioMirror[:,2:je])
+    ey[2:ie,:] = caey[2:ie,:].*ey[2:ie,:] + cbey[2:ie,:].*(hz[1:ie-1,:] - hz[2:ie,:]) .* (1 .- medioMirror[2:ie,:])
+
 
 
     # Acutalización en la frontera Ex
@@ -441,7 +452,7 @@ for nit in ProgressBar(1:nmax)
 
 
     # Campo Magnético Hz
-    hz[1:ie,1:je]=      dahz[1:ie,1:je].*hz[1:ie,1:je].+dbhz[1:ie,1:je].*(ex[1:ie,2:jb]-ex[1:ie,1:je]+ey[1:ie,1:je]-ey[2:ib,1:je]);
+    hz[1:ie,1:je] = dahz[1:ie,1:je].*hz[1:ie,1:je] + dbhz[1:ie,1:je].*(ex[1:ie,2:jb] - ex[1:ie,1:je] + ey[1:ie,1:je] - ey[2:ib,1:je]) .* (1 .- medioMirror[1:ie,1:je])
     #hz[is,js].=         hz[is,js].+sin.(omega*(nit.-delay)*dt).*exp.(-((nit.-delay).^2/tau^2));
     #hz[is,js].=         hz[is,js].+exp.(-((nit.-delay).^2/tau^2));
     hz[is,js].=         hz[is,js].+sin.(omega*(nit.-delay)*dt)
