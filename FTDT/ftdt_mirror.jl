@@ -30,7 +30,12 @@ using Base.Threads
 #######################################################################
 
 
-function simular(medio_n, medio_r, idx, idy, nmax)
+
+
+
+
+
+function simular(medio_n, medio_r, idx, idy, nmax, freq, dx, dt)
 
   println("Declaración de constantes físicas")
 
@@ -43,7 +48,6 @@ function simular(medio_n, medio_r, idx, idy, nmax)
   etaz=sqrt(muz/epsz);
   cc =  sqrt(1/(epsz*muz));
 
-  freq=3.3e+14*(unt);                        # Frecuencia de la fuente de campo
   lambda=cc/freq;                     # Longitud de onda de la fuente de campo 
   omega=2.0*pi*freq;                  # Frecuencia en radiandes
 
@@ -54,10 +58,6 @@ function simular(medio_n, medio_r, idx, idy, nmax)
   println("Declaración de parámetros computacionales")
 
   # Diferenciales
-  CFL = 99e-2;                                  # Constante de Courant
-  dx = lambda/20;#(100e-3)*und;                             # Diferencial espacial
-  dt = CFL/(cc*sqrt((1/dx^2)+(1/dx^2)));      # Diferencial temporal
-
   tau = Int(round(1/freq/dt));                # Nodos por periodo
   delay = 3*tau;
   scl = 60;                                   # Cantidad de periodos
@@ -97,7 +97,7 @@ function simular(medio_n, medio_r, idx, idy, nmax)
   #######################################################################
   #println("Declaración de la fuente")
 
-  #source = sin.(omega*(collect(1:scl*tau).-delay)*dt).*exp.(-((collect(1:scl*tau).-delay).^2/tau^2));
+  # source = sin.(omega*(collect(1:scl*tau).-delay)*dt).*exp.(-((collect(1:scl*tau).-delay).^2/tau^2));
 
   # Guardar parámetros espaciales
   # save(File(format"JLD",string(pwd(),"gifMagico/parametros.jld")),"nx",je,"ny",ie,"nt",nmax,"dx",dx,"dt",dt,"und",und,"unt",unt)
@@ -213,6 +213,8 @@ function simular(medio_n, medio_r, idx, idy, nmax)
     caEObj = ((1).-auxObj)./((1).+auxObj);
     cbEObj = dt./medioProp./dx./((1).+auxObj);
 
+
+
     auxObj = 0; #dt*sim[1]/(2.0*muz*mur[1]);
     caHObj = ((1).-auxObj)/((1).+auxObj);
     cbHObj = dt/muz/1/dx/((1).+auxObj);
@@ -225,6 +227,7 @@ function simular(medio_n, medio_r, idx, idy, nmax)
     dahz[idy,idx].=caHObj;
     dbhz[idy,idx].=cbHObj;
   #
+
 
   ########################################################################
   # Se inicializan las PMLs 
@@ -392,11 +395,9 @@ function simular(medio_n, medio_r, idx, idy, nmax)
   # Ecuaciones de propagación 
   #######################################################################
   println("Inicia Propagación")
-  @time begin
 
   simulacion = Dict()
-
-
+@time begin
 
 for nit in ProgressBar(1:nmax)
 
@@ -408,11 +409,9 @@ for nit in ProgressBar(1:nmax)
     # @show size(ey)
     # @show size(medioProp)
 
-
     # Campo eléctrico
     ex[:,2:je] = caex[:,2:je].*ex[:,2:je] + cbex[:,2:je].*(hz[:,2:je] - hz[:,1:je-1]) .* (1 .- medioMirror[:,2:je])
     ey[2:ie,:] = caey[2:ie,:].*ey[2:ie,:] + cbey[2:ie,:].*(hz[1:ie-1,:] - hz[2:ie,:]) .* (1 .- medioMirror[2:ie,:])
-
 
 
     # Acutalización en la frontera Ex
@@ -457,6 +456,11 @@ for nit in ProgressBar(1:nmax)
     #hz[is,js].=         hz[is,js].+exp.(-((nit.-delay).^2/tau^2));
     hz[is,js].=         hz[is,js].+sin.(omega*(nit.-delay)*dt)
 
+    # Adding a horizontal line source at y-coordinate 'js'
+    # for i in 1:ie
+    #   hz[i,js] += sin(omega*(nit.-delay)*dt)
+    # end
+
     # Actualización en la mfrontera Hzx
     #     FRONT
     hzxbcf[1:iefbc,:]=  dahzxbcf[1:iefbc,:].*hzxbcf[1:iefbc,:].-dbhzxbcf[1:iefbc,:].*(eybcf[2:ibfbc,:]-eybcf[1:iefbc,:]);
@@ -493,10 +497,12 @@ for nit in ProgressBar(1:nmax)
     #     RIGHT
     hzybcr[:,1:je]=dahzybcr[2:ibbc,1:je].*hzybcr[:,1:je].-dbhzybcr[2:ibbc,1:je].*(exbcr[:,1:je]-exbcr[:,2:jb]);
 
+
     # Guardar matrices de infromación
     # save(File(format"JLD",string(pwd(),"gifMagico/matHz-",nit,".jld")),"hz",hz)
 
-    simulacion[nit] = copy(hz)
+    local hz_copy = copy(hz)
+    simulacion[nit] = hz_copy
 
     end
 
@@ -506,4 +512,22 @@ for nit in ProgressBar(1:nmax)
 
 end
 
+end
+
+
+
+
+if abspath(PROGRAM_FILE) == @__FILE__
+  using .ftdt
+  println("This script is running as the main program.")
+  und = 1*10^-6;                       # Unidad espacial
+  medioProp = (8.854187817*10^-12)*(und^3); 
+  cc =  2.997924580105028e14
+  freq=7.5e+14;                        # Frecuencia de la fuente de campo
+  lambda=cc/freq; 
+  dx = lambda/20
+  idx = 1:Int(round(30e-3 / und * dx));
+  idy = 1:Int(round(15e-3 / und * dx));
+  mirrorMatrix = zeros(Int, 682, 1363) ;
+  simular(medioProp, mirrorMatrix, idx, idy, 1000)
 end
