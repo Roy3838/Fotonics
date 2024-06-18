@@ -1,38 +1,32 @@
-# Generación de triplete de fotones entrelazados utilizando TOSPDC en una guía de onda.
+# Quantum Entangled Photon Triplets Using TOSPDC in a Waveguide
 
-La generación de parejas de fotones es crucial en mecánica cuántica, usándose tanto en computadoras cuánticas como en experimentos para entender la teoría cuántica. 
-Estas parejas se crean mediante varios métodos en cristales no lineales, como en PDC (donde un fotón se divide en dos) o en SFWM (donde dos fotones se convierten en otros dos). 
+The generation of photon pairs is crucial in quantum mechanics, utilized both in quantum computers and in experiments to understand quantum theory. These pairs are created via various methods in nonlinear crystals, such as in PDC (where one photon splits into two) and in SFWM (where two photons convert into another pair).
 
-Sin embargo, generar tripletes de fotones entrelazados y multipletes de mayor orden implica desafíos tecnológicos significativos. 
-Nos enfocamos en la conversión paramétrica descendente espontánea de tercer orden (TOSPDC) en fibras ópticas de sílice fusionado, donde un solo fotón de bombeo se aniquila para generar un triplete de fotones. 
-Este proceso es prometedor para la emisión anunciada de pares de fotones y para la generación directa de estados entrelazados de polarización de Greenberger-Horne-Zeilinger (GHZ), sin necesidad de postselección. 
+However, generating entangled photon triplets and higher-order multiplets involves significant technological challenges. We focus on third-order spontaneous parametric down-conversion (TOSPDC) in fused silica optical fibers, where a single pump photon is annihilated to generate a photon triplet. This process is promising for heralded photon pair emission and for the direct generation of Greenberger-Horne-Zeilinger (GHZ) entangled polarization states without the need for post-selection.
 
-Este documento explorará la teoría detrás de nuestra propuesta de fuentes de tripletes de fotones TOSPDC, enfocándose en el estado del triplete de fotones y las características de coincidencia de fases de TOSPDC en fibras ópticas delgadas. 
+This document will explore the theory behind our proposed TOSPDC photon triplet sources, focusing on the photon triplet state and the phase-matching characteristics of TOSPDC in thin optical fibers.
 
-Este documento tiene como objetivo proporcionar una visión general de la generación de pares de fotones en fibras ópticas, incluyendo una descripción del estado de dos fotones, y la optimización de las dimensiones de la guía de onda para TOSPDC.
+This document aims to provide an overview of photon pair generation in optical fibers, including a description of the two-photon state, and the optimization of waveguide dimensions for TOSPDC.
 
-## Efectos No-Lineales
-Existen dos métodos de generacion de parejas de fotones mediante cristales no-lineales, uno que considera el efecto $\chi^{(2)}$ y otro que considera el efecto $\chi^{(3)}$.
-El efecto de $\chi^{(2)}$ se llama Spontaneus Parametric Down Conversion, al ser de segundo orden de no-linealidad es el mas estudiado. 
-También se ha propuesto recientemente el efecto $\chi^{(3)}$ de Spontaneous Four Wave Mixing, en el cual también se generan dos fotones pero a costa de otros dos fotones de bombeo. 
-El fenómeno que estudiaremos es el tercer fenómeno $\chi^{(3)}$ llamado Third Order Spontaneous Parametric Down Conversion, que será referenciado como (TOSPDC). 
+## Non-Linear Effects
+There are two methods of generating photon pairs through nonlinear crystals, one considering the $\chi^{(2)}$ effect and the other the $\chi^{(3)}$ effect. The $\chi^{(2)}$ effect is called Spontaneous Parametric Down Conversion, being second-order non-linearity and the most studied. The $\chi^{(3)}$ effect of Spontaneous Four Wave Mixing has also been recently proposed, in which two photons are also generated at the expense of two pump photons. The phenomenon we will study is the third $\chi^{(3)}$ phenomenon called Third Order Spontaneous Parametric Down Conversion, referred to as (TOSPDC).
 
-## Derivación del estádo cuántico
-La generación de fotones mediante TOSPDC sigue el siguiente hamiltoniano
+## Quantum State Derivation
+Photon generation via TOSPDC follows the Hamiltonian
 
 $\hat{H}= \frac{3}{4}\epsilon_0 \chi^{(3)} \int dV \hat{E}_p^{(+)} \hat{E}_r^{(-)} \hat{E}_s^{(-)} \hat{E}_i^{(-)}$
 
-Donde $\hat{E}^{(+)}$ y $\hat{E}^{(-)}$ son las partes de frecuencia positiva y precuencia negativa del operador de campo eléctrico.
+Where $\hat{E}^{(+)}$ and $\hat{E}^{(-)}$ are the positive and negative frequency parts of the electric field operator.
 
-La generación de fotones en TOSPDC sigue una formulación donde el campo eléctrico para los modos $r,s,i$ se expresa como una función que incluye el operador de aniquilación dependiente del número de onda asociado al modo de propagación en la fibra.
+Photon generation in TOSPDC follows a formulation where the electric field for modes $r,s,i$ is expressed as a function including the wave number-dependent annihilation operator for the propagation mode in the fiber.
 
 $\hat{E}^{(+)}(r,t) = iA(x,y)\sqrt{\delta k} \sum_k l(w) \exp{[i(kz-wt)]} \hat{a}(k)$
 
-Y se representa los fotones de bombeo como una onda clásica, que al sustituir (2) en el hamiltoniano (1) permite derivar el estado producido por TOSPDC, que se puede escribir en términos del componente de tres fotones del estado $\ket{\Psi_3}$.
+Pump photons are represented as a classical wave, which, when substituted (2) into Hamiltonian (1), allows deriving the state produced by TOSPDC, which can be written in terms of the three-photon component of the state $\ket{\Psi_3}$.
 
 $\ket{\Psi} = \ket{0}_r\ket{0}_s\ket{0}_i + \xi \ket{\Psi_3}$
 
-Donde $\xi$ es la eficiencia de conversión.
+Where $\xi$ is the conversion efficiency.
 
 $\xi=$
 $\frac{3\epsilon_0\chi^{(3)} (2\pi)A_0(\delta k)^{3/2} L}{4\hbar}\times \int dx \int dy A_p(x,y)$
@@ -43,30 +37,27 @@ $A_s^*(x,y)$
 
 $A_i^*(x,y)$
 
-Y el estado $\ket{\Psi_3}$ está descrito por.
+And the state $\ket{\Psi_3}$ is described by.
 
 $\ket{\Psi_3} = \sum_{k_r}\sum_{k_s}\sum_{k_i} G_k (k_r,k_s,k_i) \times \hat{a}^\dag(k_r)\hat{a}^\dag(k_s)\hat{a}^\dag(k_i)\ket{0}_r\ket{0}_s\ket{0}_i$
 
-
-La función $G_k(k_r,k_s,k_i)$ es la amplitud conjunta de número de onda.
-Las propiedades espectrales del triplete de fotones están determinadas por la función de amplitud espectral conjunta $G_k(k_r,k_s,k_i)$, que se simplifica a ser $F(w_r,w_s,w_i)$
+The function $G_k(k_r,k_s,k_i)$ is the joint wave number amplitude. The spectral properties of the photon triplet are determined by the joint spectral amplitude function $G_k(k_r,k_s,k_i)$, simplified to be $F(w_r,w_s,w_i)$
 
 $F(w_r,w_s,w_i) = \alpha(w_r+w_s+w_i)\cdot\Phi(w_r,w_s,w_i)$
 
-que se relaciona con la Pump Spectral Amplitude $\alpha$ y la función de Phase Matching $\Phi$.
+related to the Pump Spectral Amplitude $\alpha$ and the Phase Matching function $\Phi$.
 
-La función de Phase Matching se define como
+The Phase Matching function is defined as
 
 $\Phi = sinc[\frac{L}{2}\Delta k]\exp{[\frac{iL}{2}\Delta k]}$
 
-donde 
+where 
 
 $\Delta k (w_r,w_s,w_i) = k_p(w_r+w_s+w_i) - k_r(w_r) - k_s(w_s) -k_i(w_i) + NL$
 
-Se puede observar el mecanismo de TOSPDC en la anhiquilación de un fotón de bombeo para la creación de los fotones $k_r, k_s, k_i$.
-Finalmente, se aborda la contribución no lineal en la desviación de fase, que para fines de ésta investiagación se considera que son 0.
+TOSPDC mechanism is observed in the annihilation of a pump photon for the creation of photons $k_r, k_s, k_i$. Finally, the nonlinear contribution in phase deviation, considered to be 0 for this investigation, is addressed.
 
-Sabiendo la función de Phase Matching de los fotones generados, se puede saber la función de amplitud espectral conjunta, que te da información del estado de los tres fotones $\ket{\Psi_3}$.
+Knowing the Phase Matching function of the generated photons, one can determine the joint spectral amplitude function, which provides information about the state of the three photons $\ket{\Psi_3}$.
 
 
 
