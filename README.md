@@ -4,6 +4,8 @@ The generation of photon pairs is crucial in quantum mechanics, utilized both in
 
 However, generating entangled photon triplets and higher-order multiplets involves significant technological challenges. We focus on third-order spontaneous parametric down-conversion (TOSPDC) in fused silica optical fibers, where a single pump photon is annihilated to generate a photon triplet. This process is promising for heralded photon pair emission and for the direct generation of Greenberger-Horne-Zeilinger (GHZ) entangled polarization states without the need for post-selection.
 
+![plot](TOSPDC/TOSPDC.png)
+
 This document will explore the theory behind our proposed TOSPDC photon triplet sources, focusing on the photon triplet state and the phase-matching characteristics of TOSPDC in thin optical fibers.
 
 This document aims to provide an overview of photon pair generation in optical fibers, including a description of the two-photon state, and the optimization of waveguide dimensions for TOSPDC.
@@ -44,6 +46,9 @@ $\ket{\Psi_3} = \sum_{k_r}\sum_{k_s}\sum_{k_i} G_k (k_r,k_s,k_i) \times \hat{a}^
 The function $G_k(k_r,k_s,k_i)$ is the joint wave number amplitude. The spectral properties of the photon triplet are determined by the joint spectral amplitude function $G_k(k_r,k_s,k_i)$, simplified to be $F(w_r,w_s,w_i)$
 
 $F(w_r,w_s,w_i) = \alpha(w_r+w_s+w_i)\cdot\Phi(w_r,w_s,w_i)$
+
+![alt text](TOSPDC/SFWMvsTOSPDC.png)
+
 
 related to the Pump Spectral Amplitude $\alpha$ and the Phase Matching function $\Phi$.
 
